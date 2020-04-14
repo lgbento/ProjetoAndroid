@@ -20,7 +20,7 @@
             android:paddingTop="5dp">
 
             <ImageView
-                android:id="@+id/layout_viewHolder_carro_image"
+                android:id="@+id/layout_viewHolder_console_image"
                 android:layout_width="265dp"
                 android:layout_height="160dp"
                 android:layout_weight="1"
@@ -33,7 +33,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/layout_viewHolder_carro_marca"
+                    android:id="@+id/layout_viewHolder_console_marca"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
@@ -42,21 +42,21 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/layout_viewHolder_carro_modelo"
+                    android:id="@+id/layout_viewHolder_console_modelo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:text="Modelo" />
 
                 <TextView
-                    android:id="@+id/layout_viewHolder_carro_preco"
+                    android:id="@+id/layout_viewHolder_console_preco"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:text="Preço" />
 
                 <TextView
-                    android:id="@+id/layout_viewHolder_carro_descricao"
+                    android:id="@+id/layout_viewHolder_console_descricao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
