@@ -1,4 +1,4 @@
-package br.com.projetocarro
+package br.com.projetoconsole
 
 import org.junit.Test
 

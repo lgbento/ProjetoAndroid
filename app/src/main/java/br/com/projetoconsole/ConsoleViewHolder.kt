@@ -1,8 +1,9 @@
-package br.com.projetocarro
+package br.com.projetoconsole
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 
@@ -21,5 +22,10 @@ class ConsoleViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         textDescricao.text = console.descricao
         textPreco.text = console.preco
         imageView.setImageDrawable(ContextCompat.getDrawable(imageView.context, console.idResourceImage))
+
+        itemView.setOnClickListener {
+            Toast.makeText(itemView.context, textPreco.text, Toast.LENGTH_SHORT).show()
+        }
+
     }
 }

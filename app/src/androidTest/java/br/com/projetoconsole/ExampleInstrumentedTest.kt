@@ -1,4 +1,4 @@
-package br.com.projetocarro
+package br.com.projetoconsole
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
